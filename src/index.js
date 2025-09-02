@@ -1,6 +1,6 @@
 'use strict'
 
-function factorial(num) {
+function factorial(num = 1) {
 	if(num <= 1) {
 		return 1
 	}
